@@ -9,4 +9,7 @@ export class DogService {
   public intoduce(): string {
     return 'My name is Rex!';
   }
+  public modifyDetail(): string {
+    return 'Successfully modified';
+  }
 }
